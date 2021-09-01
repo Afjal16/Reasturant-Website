@@ -1,0 +1,366 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            img {
+                max-width: 100%;
+            }
+            
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 p,
+            span,
+            a {
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            .main-header .container-fluid,
+            .slider-section .container-fluid,
+            .shop-section .container-fluid,
+            .customer-section .container-fluid,
+            .contact-section .container-fluid,
+            .footer-section .container-fluid {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            /* Main Css */
+            
+            .main-header {
+                background-color: #081B54;
+                color: #ffffff;
+            }
+            
+            .logo img {
+                width: 37px;
+                margin-right: 2px;
+            }
+            
+            .logo span {
+                color: #ffffff;
+                font-weight: 700;
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            .primary-menu {}
+            
+            .primary-menu li {
+                list-style-type: none;
+                padding: 14px 5px;
+            }
+            
+            .primary-menu li a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 13px;
+                padding: 8px 16px;
+                border-radius: 5px;
+                font-weight: 500;
+            }
+            
+            .primary-menu li :hover {
+                color: #ffffff;
+                background-color: #16B978;
+            }
+            /* slider/////////////////////////////////////////// */
+            
+            .slider-section {
+                background: url(img/Background\ –\ 1@2x.png) no-repeat center center;
+                background-size: cover;
+                height: 100vh;
+                padding: 120px 0;
+            }
+            
+            .slider-food img {
+                margin-top: -100px;
+            }
+            
+            .slider-text {
+                padding-top: 30px;
+            }
+            
+            .slider-text h6 {
+                color: #16b978;
+                text-transform: uppercase;
+            }
+            
+            .slider-text h1 {
+                font-size: 60px;
+                line-height: 85px;
+                color: #081B54;
+                font-weight: 700;
+            }
+            
+            .slider-text p {
+                color: #000;
+                font-weight: 400;
+                margin-bottom: 25px;
+            }
+            
+            .default-btn {
+                border: 2px solid#16B978;
+                border-radius: 20px;
+                padding: 6px 15px;
+                color: #16B978;
+                transition: .5s;
+                font-weight: 400;
+            }
+            
+            .default-btn:hover {
+                background-color: #16B978;
+                color: #fff;
+            }
+            /* prising-section///////////////////////////////////// */
+            
+            .prising-section {
+                background: url(img/about-bg.jpg) no-repeat center center;
+                background-size: cover;
+                height: 76vh;
+                padding: 40px 0;
+                color: #fff;
+            }
+            
+            .header-text h1 {
+                font-weight: 700;
+            }
+            
+            .deal-items {
+                width: 25%;
+                margin: 0 auto;
+                background: #fff;
+                color: #000;
+                height: 300px;
+            }
+            
+            .deal-food img {
+                width: 81%;
+                display: inline-block;
+                padding: 15px 0;
+            }
+            
+            .total-section {
+                border-radius: 10px;
+                background: #fff;
+                border-top: 8px solid #16B978;
+                margin-top: 23px;
+            }
+            
+            .deal-food.food1 {
+                margin-top: -3px;
+            }
+            
+            .deal-food.food2 img {
+                padding-top: 13px;
+                width: 94%;
+            }
+            
+            .deal-food.food4 {
+                padding-top: 10px;
+            }
+            
+            .deal-food.food2 {
+                padding-top: 7px;
+            }
+            
+            .deal-text.text1 {
+                margin-top: -7px;
+            }
+            
+            .deal-text.text2 {
+                margin-top: -18px;
+            }
+            
+            .deal-text span {
+                color: #16B978;
+                font-weight: 500;
+            }
+            /* shop///////////////////////////////// */
+            
+            .shop-food-img img {
+                width: 100%;
+                height: 250px;
+                border-radius: 8px 8px 0 0;
+                transition: .5s;
+            }
+            /* //////////////////////////////rfyrfdyfdhgyfd */
+            
+            .shop-food-img {
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .shop-food-img img {
+                border-radius: 4px;
+            }
+            
+            .shop-food-img:hover img {
+                transform: scale(1.5);
+                transition: .7s;
+                display: inline-block;
+            }
+            /* /////////////////////////fffffffffffteeee/// */
+            
+            .shop-text {
+                padding-top: 10px;
+                margin-bottom: 30px;
+            }
+            
+            .shop-text h2 {
+                font-weight: 700;
+                color: #081B54;
+            }
+            
+            .shop-text p {
+                font-weight: 400;
+            }
+            
+            .shop-items {
+                width: 103%;
+            }
+            
+            .shop-food-text {
+                box-shadow: 0px -1px 4px;
+                border-radius: 0 0 8px 8px;
+                padding-left: 20px;
+                padding-top: 20px;
+            }
+            
+            .food-seles-icon {
+                background: #16B978;
+                color: #fff;
+                padding: 10px;
+                border-radius: 5px 0 5px 0;
+                font-size: 13px;
+            }
+            
+            .food-seles-icon:hover {
+                background-color: #081B54;
+                color: #ffffff;
+            }
+            
+            .food-price {
+                color: #16B978;
+                font-weight: 500;
+                margin-top: 7px;
+            }
+            
+            .shop-items.bottom-top {
+                margin-top: 16px;
+                width: 101%;
+                margin-left: 2px;
+            }
+            
+            .custumer-img img {
+                display: inline-block;
+                height: 60px;
+                width: 60px;
+                border: 4px solid#16B978;
+                border-radius: 100%;
+            }
+            
+            .custumer-text i,
+            h3 {
+                color: #16b978;
+                font-size: 12px;
+            }
+            
+            .custumer-text h3 {
+                font-size: 20px;
+            }
+            
+            .custumer-text {
+                margin-top: 10px;
+            }
+            
+            .custumer-text i {
+                padding-bottom: 10px;
+            }
+            
+            .custumer-items {
+                box-shadow: 0px 3px 5px -3px;
+            }
+            
+            .custumer-text {
+                display: inline-block;
+                margin-top: 10px;
+                width: 89%;
+                padding-bottom: 10px;
+            }
+            /* contact/////////////////////////////// */
+            
+            .contact-icon i {
+                color: #16b978;
+                margin-right: 15px;
+            }
+            
+            .contact-icon {
+                margin-top: 30px;
+                font-weight: 400;
+            }
+            
+            .contact-item h4 {
+                font-weight: 700;
+                color: #081b54;
+                margin-bottom: 20px;
+                font-size: 25px;
+            }
+            
+            input.form-control {
+                margin-bottom: 20px;
+                padding: 13px;
+                border: 2px solid#16b978;
+                box-shadow: 1px 0px 2px #16b989;
+                outline: none;
+            }
+            
+            textarea.form-control {
+                padding: 13px 14px;
+                padding-bottom: 60px;
+                border: 2px solid#16b978;
+                box-shadow: 1px 0px 2px #16b989;
+                outline: none;
+            }
+            
+            .form-control::-webkit-input-placeholder {
+                color: #16b989;
+            }
+            
+            .form-control:focus::-webkit-input-placeholder {
+                opacity: 0.5;
+            }
+            
+            .footer-section {
+                background: #081b54;
+                color: #ffffff;
+                margin-top: 50px;
+            }
+            
+            .social-icon {}
+            
+            .social-icon {
+                line-height: 40px;
+                padding: 8px;
+                margin-left: 55%;
+                margin-top: 3px;
+                font-size: 20px;
+            }
+            
+            .nnnnnnnnn span :hover {
+                color: #16b989;
+            }
+            
+            .footer-text p {
+                padding-top: 18px;
+            }
+            
+            .nnnnnnnnn span {
+                padding: 0px 10px;
+                float: left;
+            }
